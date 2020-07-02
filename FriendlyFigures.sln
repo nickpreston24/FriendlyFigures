@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.CLI", "FF.CLI\FF.CLI.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FriendlyFigures", "FriendlyFigures\FriendlyFigures.csproj", "{45426EAB-3D0C-4C8D-8D62-8DF8139D3982}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FF.Tests", "FF.Tests\FF.Tests.csproj", "{C37F990E-370D-4F13-BCEB-89C01FC61619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{45426EAB-3D0C-4C8D-8D62-8DF8139D3982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45426EAB-3D0C-4C8D-8D62-8DF8139D3982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45426EAB-3D0C-4C8D-8D62-8DF8139D3982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C37F990E-370D-4F13-BCEB-89C01FC61619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37F990E-370D-4F13-BCEB-89C01FC61619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37F990E-370D-4F13-BCEB-89C01FC61619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37F990E-370D-4F13-BCEB-89C01FC61619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

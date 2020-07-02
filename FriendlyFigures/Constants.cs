@@ -7,7 +7,7 @@ namespace FriendlyFigures
         /// <summary>
         /// 0-9
         /// </summary>
-        Dictionary<int, string> integers = new Dictionary<int, string>
+        public static  Dictionary<int, string> WholeIntegers = new Dictionary<int, string>
         {
             [0] = "ten",
             [1] = "twenty",
@@ -25,7 +25,7 @@ namespace FriendlyFigures
         /// <summary>
         /// Nouns for tens places
         /// </summary>
-        Dictionary<int, string> itties = new Dictionary<int, string>
+        public static  Dictionary<int, string> Itties = new Dictionary<int, string>
         {
             [10] = "ten",
             [20] = "twenty",
@@ -41,7 +41,7 @@ namespace FriendlyFigures
         /// <summary>
         /// Nouns for deca places
         /// </summary>
-        Dictionary<int, string> tens = new Dictionary<int, string>
+        public static   Dictionary<int, string> Tens = new Dictionary<int, string>
         {
             [10] = "ten",
             [100] = "hundred",
