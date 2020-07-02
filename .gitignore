@@ -1,4 +1,11 @@
-*.swp
+*.swpnode_modules
+.idea
+.netlify
+obj/
+Properties/
+.sln/*
+.pdb
+bin/**/*
 *.*~
 project.lock.json
 .DS_Store

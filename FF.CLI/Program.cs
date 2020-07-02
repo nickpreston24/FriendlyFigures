@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+
+// using  Print = FriendlyFigures.Helpers;
 
 namespace FriendlyFigures.CLI
 {
@@ -12,10 +15,16 @@ namespace FriendlyFigures.CLI
                 return;
             }
 
+            var translator = new FriendlyFigureTranslator();
             Int32.TryParse(args[0], out var number);
-            Console.WriteLine("Hello World!");
-            string friendlyName = "Ten";
-            Console.WriteLine($"{number} is {friendlyName}");
+            
+            string friendlyName = translator.Interpret(number);
+            Helpers.Print(number, friendlyName);
+
+            var range =  translator.InterpretRange(1, 10);
+            range.Print();
         }
+
+      
     }
 }

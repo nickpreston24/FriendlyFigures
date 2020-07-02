@@ -9,16 +9,16 @@ namespace FriendlyFigures
         /// </summary>
         public static  Dictionary<int, string> WholeIntegers = new Dictionary<int, string>
         {
-            [0] = "ten",
-            [1] = "twenty",
-            [2] = "thirty",
-            [3] = "forty",
-            [4] = "fifty",
-            [5] = "sixty",
-            [6] = "seventy",
-            [7] = "seventy",
-            [8] = "eighty",
-            [9] = "ninety",
+            [0] = "zero",
+            [1] = "one",
+            [2] = "two",
+            [3] = "three",
+            [4] = "four",
+            [5] = "five",
+            [6] = "six",
+            [7] = "seven",
+            [8] = "eight",
+            [9] = "nine",
             [10] = "ten",
         };
 
