@@ -1,0 +1,16 @@
+/home/michael/Desktop/CodeProjects/GloberRanger-Homework/FriendlyFigures/FriendlyFigures/bin/Debug/netcoreapp3.1/FriendlyFigures.deps.json
+/home/michael/Desktop/CodeProjects/GloberRanger-Homework/FriendlyFigures/FriendlyFigures/bin/Debug/netcoreapp3.1/FriendlyFigures.dll
+/home/michael/Desktop/CodeProjects/GloberRanger-Homework/FriendlyFigures/FriendlyFigures/bin/Debug/netcoreapp3.1/FriendlyFigures.pdb
+/home/michael/Desktop/CodeProjects/GloberRanger-Homework/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.csprojAssemblyReference.cache
+/home/michael/Desktop/CodeProjects/GloberRanger-Homework/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.AssemblyInfoInputs.cache
+/home/michael/Desktop/CodeProjects/GloberRanger-Homework/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.AssemblyInfo.cs
+/home/michael/Desktop/CodeProjects/GloberRanger-Homework/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.dll
+/home/michael/Desktop/CodeProjects/GloberRanger-Homework/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.pdb
+/home/michael/Desktop/CodeProjects/FriendlyFigures/FriendlyFigures/bin/Debug/netcoreapp3.1/FriendlyFigures.deps.json
+/home/michael/Desktop/CodeProjects/FriendlyFigures/FriendlyFigures/bin/Debug/netcoreapp3.1/FriendlyFigures.dll
+/home/michael/Desktop/CodeProjects/FriendlyFigures/FriendlyFigures/bin/Debug/netcoreapp3.1/FriendlyFigures.pdb
+/home/michael/Desktop/CodeProjects/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.csprojAssemblyReference.cache
+/home/michael/Desktop/CodeProjects/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.AssemblyInfoInputs.cache
+/home/michael/Desktop/CodeProjects/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.AssemblyInfo.cs
+/home/michael/Desktop/CodeProjects/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.dll
+/home/michael/Desktop/CodeProjects/FriendlyFigures/FriendlyFigures/obj/Debug/netcoreapp3.1/FriendlyFigures.pdb
