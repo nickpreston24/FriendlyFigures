@@ -79,11 +79,14 @@ namespace FriendlyFigures
 
             var place = number.Place();
 
+            // 1. This can be refactored, of course.  Only a first pass.
+            // 2. Magnitude is the measure of how many Tens, Hundred, Millions, etc. there are.
+            // 3. Obviously we'd need to support Int64 and potentially Long, but I'd refactor this to be more dynamic, first.
             if (place % (Billion * Hundred) == 0)
             {
                 var count = number / Billion;
                 var digit = count * Billion;
-                var magnitude = digit.Magnitude(Billion); //525
+                var magnitude = digit.Magnitude(Billion);
                 var name = string.Empty;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Billion)}";
                 result.Append(name);
@@ -95,7 +98,7 @@ namespace FriendlyFigures
             {
                 var count = number / Billion;
                 var digit = count * Billion;
-                var magnitude = digit.Magnitude(Billion); //525
+                var magnitude = digit.Magnitude(Billion);
                 var name = string.Empty;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Billion)}";
                 result.Append(name);
@@ -107,7 +110,7 @@ namespace FriendlyFigures
             {
                 var count = number / place;
                 var digit = count * Billion;
-                var magnitude = digit.Magnitude(Billion); //525
+                var magnitude = digit.Magnitude(Billion);
                 var name = string.Empty;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Billion)}";
                 result.Append(name);
@@ -120,7 +123,7 @@ namespace FriendlyFigures
             {
                 var count = number / Million;
                 var digit = count * Million;
-                var magnitude = digit.Magnitude(Million); //525
+                var magnitude = digit.Magnitude(Million);
                 var name = string.Empty;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Million)}";
                 result.Append(name);
@@ -132,7 +135,7 @@ namespace FriendlyFigures
             {
                 var count = number / Million;
                 var digit = count * Million;
-                var magnitude = digit.Magnitude(Million); //525
+                var magnitude = digit.Magnitude(Million);
                 var name = string.Empty;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Million)}";
                 result.Append(name);
@@ -144,7 +147,7 @@ namespace FriendlyFigures
             {
                 var count = number / place;
                 var digit = count * Million;
-                var magnitude = digit.Magnitude(Million); //525
+                var magnitude = digit.Magnitude(Million);
                 var name = string.Empty;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Million)}";
                 result.Append(name);
@@ -157,7 +160,7 @@ namespace FriendlyFigures
             {
                 var count = number / Thousand;
                 var digit = count * Thousand;
-                var magnitude = digit.Magnitude(Thousand); //525
+                var magnitude = digit.Magnitude(Thousand);
                 string name;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Thousand)}";
                 result.Append(name);
@@ -169,7 +172,7 @@ namespace FriendlyFigures
             {
                 var count = number / Thousand;
                 var digit = count * Thousand;
-                var magnitude = digit.Magnitude(Thousand); //525
+                var magnitude = digit.Magnitude(Thousand);
                 string name;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Thousand)}";
                 result.Append(name);
@@ -181,7 +184,7 @@ namespace FriendlyFigures
             {
                 var count = number / place;
                 var digit = count * Thousand;
-                var magnitude = digit.Magnitude(Thousand); //525
+                var magnitude = digit.Magnitude(Thousand);
                 string name;
                 name = $"{Interpret(magnitude)} {GetFriendlyName(Thousand)}";
                 result.Append(name);

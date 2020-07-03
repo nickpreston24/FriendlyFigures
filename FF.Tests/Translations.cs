@@ -85,9 +85,9 @@ namespace FF.Tests
         public void CanTranslateRandomRange()
         {
             var rng = new Random(DateTime.Now.Millisecond);
-            var start = rng.Next(10000);
-            var end = rng.Next(10000);
-            var step = rng.Next(1000);
+            var start = rng.Next(10);
+            var end = rng.Next(1000);
+            var step = rng.Next(20);
             var results = translator.InterpretRange(start, end, step);
             Print(results.Take(25));
         }
