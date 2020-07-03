@@ -5,7 +5,7 @@ obj/
 Properties/
 .sln/*
 .pdb
-bin/**/*
+bin/
 *.*~
 project.lock.json
 .DS_Store
@@ -42,3 +42,15 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+FF.CLI/bin/Debug/netcoreapp3.1/FF.CLI.dll
+FF.CLI/bin/Debug/netcoreapp3.1/FF.CLI.pdb
+FF.CLI/bin/Debug/netcoreapp3.1/FriendlyFigures.dll
+FF.CLI/bin/Debug/netcoreapp3.1/FriendlyFigures.pdb
+FF.CLI/obj/Debug/netcoreapp3.1/FF.CLI.csproj.FileListAbsolute.txt
+FF.CLI/obj/Debug/netcoreapp3.1/FF.CLI.csprojAssemblyReference.cache
+FF.CLI/obj/Debug/netcoreapp3.1/FF.CLI.dll
+FF.CLI/obj/Debug/netcoreapp3.1/FF.CLI.pdb
+FF.CLI/bin/Debug/netcoreapp3.1/FF.CLI.dll
+FF.CLI/bin/Debug/netcoreapp3.1/FF.CLI.pdb
+FF.CLI/bin/Debug/netcoreapp3.1/FriendlyFigures.dll
+FF.CLI/bin/Debug/netcoreapp3.1/FriendlyFigures.pdb

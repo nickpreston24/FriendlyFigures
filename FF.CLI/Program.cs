@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace FriendlyFigures.CLI
 {
@@ -13,6 +14,22 @@ namespace FriendlyFigures.CLI
             }
 
             var text = args[0];
+
+            
+            if (Regex.IsMatch(text, @"[^\d-]"))
+            {
+                Console.WriteLine("Non-numeric values are not allowed!"); //TODO: clean duplicate dashes
+                return;
+            }
+
+            var number = int.Parse(text);
+
+            if (number <= int.MinValue)
+            {
+                Console.WriteLine("Int32 Minimum Value is not supported.  Try a larger number");
+                return;
+            }
+
             var translator = new FriendlyFigureTranslator();
 
             var friendlyName = translator.Interpret(text);
