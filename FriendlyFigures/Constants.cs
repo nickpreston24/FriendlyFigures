@@ -5,9 +5,9 @@ namespace FriendlyFigures
     public class Constants
     {
         /// <summary>
-        /// 0-9
+        ///     0-9
         /// </summary>
-        public static  Dictionary<int, string> WholeIntegers = new Dictionary<int, string>
+        public static Dictionary<int, string> WholeNumberNouns = new Dictionary<int, string>
         {
             [0] = "zero",
             [1] = "one",
@@ -19,35 +19,51 @@ namespace FriendlyFigures
             [7] = "seven",
             [8] = "eight",
             [9] = "nine",
-            [10] = "ten",
+            [10] = "ten"
         };
 
         /// <summary>
-        /// Nouns for tens places
+        ///     Nouns for 11-19
         /// </summary>
-        public static  Dictionary<int, string> Itties = new Dictionary<int, string>
+        public static Dictionary<int, string> TeenNouns = new Dictionary<int, string>
         {
-            [10] = "ten",
+            [11] = "eleven",
+            [12] = "twelve",
+            [13] = "thirteen",
+            [14] = "fourteen",
+            [15] = "fifteen",
+            [16] = "sixteen",
+            [17] = "seventeen",
+            [18] = "eighteen",
+            [19] = "nineteen"
+        };
+
+        /// <summary>
+        ///     Nouns for tens places
+        /// </summary>
+        public static Dictionary<int, string> IttyNouns = new Dictionary<int, string>
+        {
+            // [10] = "ten",
             [20] = "twenty",
             [30] = "thirty",
-            [30] = "forty",
+            [40] = "forty",
             [50] = "fifty",
             [60] = "sixty",
             [70] = "seventy",
             [80] = "eighty",
-            [90] = "ninety",
+            [90] = "ninety"
         };
-        
+
         /// <summary>
-        /// Nouns for deca places
+        ///     Nouns for deca places
         /// </summary>
-        public static   Dictionary<int, string> Tens = new Dictionary<int, string>
+        public static Dictionary<int, string> DecaNouns = new Dictionary<int, string>
         {
             [10] = "ten",
             [100] = "hundred",
             [1000] = "thousand",
             [1000000] = "million",
-            [1000000000] = "billion",
+            [1000000000] = "billion"
         };
     }
 }
