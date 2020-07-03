@@ -15,16 +15,20 @@ namespace FriendlyFigures.CLI
                 return;
             }
 
-            var translator = new FriendlyFigureTranslator();
-            Int32.TryParse(args[0], out var number);
+            string text = args[0];
             
-            string friendlyName = translator.Interpret(number);
+            var translator = new FriendlyFigureTranslator();
+            Int32.TryParse(text, out var number);
+            
+            string friendlyName = translator.Interpret(text);
             Helpers.Print(number, friendlyName);
-
-            var range =  translator.InterpretRange(1, 10);
-            range.Print();
+            
+            
+            Console.WriteLine("Whole numbers: ");
+            translator.InterpretRange(1, 10).Print();
+            
+            Console.WriteLine("20's: ");
+            translator.InterpretRange(11, 20).Print();
         }
-
-      
     }
 }
